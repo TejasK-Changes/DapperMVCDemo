@@ -1,0 +1,12 @@
+Project Name : DapperCRUDProduct
+
+For Script
+1.Create Database as 'DapperMVCDemo' in sqlserver.
+2.Run all DapperCRUD_Script.sql file in sqlserver.
+
+For ASP.Net
+1.use .Net 6.0 version.
+2.Install Dapper(2.0.123) in your project.
+3.Install Microsoft.Data.SqlClient(5.2.1)
+4.Add ConnectionStrings in appsetting.json
+	ex: ""Server=(localdb)\\MSSQLLocalDB; Database=DapperMVCDemo; Trusted_Connection=true;"" 
